@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    
+   
+}
+
+.childdiv{
+    margin-top: -10%;
+    margin-right:-10%;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    
+    background: green;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+h3{
+    margin-left: 9%
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 64, 64);
+    border-radius: 15px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(65, 65, 173);
+    border-radius: 50%;
+    right: -20px;
+    top: -20px;
+}
